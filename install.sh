@@ -58,4 +58,12 @@ echo "Package downloaded successfully."
 echo "Starting the HamTech ASL3 installer..."
 echo
 
-bash "$INSTALLER"
+# The bootstrap itself is being piped into bash, so its stdin is the wget pipe.
+# Reconnect the interactive installer to the user's terminal so its prompts work.
+if [[ -r /dev/tty ]]; then
+    bash "$INSTALLER" </dev/tty
+else
+    echo "ERROR: No interactive terminal is available."
+    echo "Download install.sh first, then run it with sudo bash."
+    exit 1
+fi

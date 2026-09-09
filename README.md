@@ -14,3 +14,10 @@ SSH into your ASL3 node using PuTTY and run:
     wget -qO- https://raw.githubusercontent.com/andrewmacrides-web/M0FXB-HAMTECH-Andreas/main/install.sh | sudo bash
 
 Follow the on-screen installation prompts.
+<h2>Support M0FXB HamTech</h2>
+
+<p>If you enjoy the M0FXB HamTech Dashboard and would like to support the project:</p>
+
+<a href="https://www.paypal.com/paypalme/M0FXB">
+  <img src="https://img.shields.io/badge/PayPal-Donate-0070BA?logo=paypal&logoColor=white" alt="Donate with PayPal">
+</a>

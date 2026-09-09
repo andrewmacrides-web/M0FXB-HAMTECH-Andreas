@@ -2,7 +2,7 @@
 
 HamTech AllStar Control Panel for ASL3.
 ## HamTech Dashboard
-
+ Thanks to Chris Farmer for the UI
 
 A radio-inspired AllStarLink control dashboard for ASL3, providing quick access to node controls, links, monitoring and commonly used functions.
 
